@@ -18,7 +18,7 @@ const {userdata}=useContext(Authcontext);
 
 useEffect(()=>{
   if(userdata){
-   const newsocket=io("http://localhost:5001",{
+   const newsocket=io("https://smartchat-ai-f36x.onrender.com",{
     query:{userId:userdata._id },
     withCredentials:true
   }) 

@@ -3,7 +3,7 @@ import axios from "axios"
 import { toast } from "react-toastify";
 
 const client=axios.create({
-    baseURL:"http://localhost:5001",
+    baseURL:"https://smartchat-ai-f36x.onrender.com",
     withCredentials:true
 })
 
