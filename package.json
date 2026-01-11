@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon backend/index.js",
-    "start":"node backend/index.js",
+    "start":"nodemon backend/index.js",
     "build":"npm install && npm install --prefix frontened && npm run build --prefix frontened"
   },
   "keywords": [],
@@ -13,7 +13,7 @@
   "description": "",
   "type": "module",
   "dependencies": {
-    "@google/generative-ai": "^0.24.1",
+    "@google/generative-ai": "^0.24.1", 
     "bcryptjs": "^3.0.2",
     "cloudinary": "^2.7.0",
     "cookie-parser": "^1.4.7",
