@@ -14,11 +14,12 @@ import path from "path";
 
 
 dotenv.config();
-const port=process.env.PORT ||5001;
+const port=process.env.PORT;
 
 const app=express();
 
- const _dirname=path.resolve();
+const _dirname=path.resolve();
+
 app.use(
     cors({
         origin:"http://localhost:5173",

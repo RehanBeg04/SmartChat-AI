@@ -5,7 +5,7 @@
    "type": "module",
   "scripts": {
     "dev": "nodemon backend/index.js",
-    "start":"node backend/index.js",
+    "start":"node Backend/index.js",
     "build":"npm install && npm install --prefix frontened && npm run build --prefix frontened"
   },
   "keywords": [],
