@@ -2,16 +2,16 @@
   "name": "backend",
   "version": "1.0.0",
   "main": "index.js",
+   "type": "module",
   "scripts": {
     "dev": "nodemon backend/index.js",
-    "start":"node index.js",
+    "start":"node backend/index.js",
     "build":"npm install && npm install --prefix frontened && npm run build --prefix frontened"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
-  "type": "module",
   "dependencies": {
     "@google/generative-ai": "^0.24.1", 
     "bcryptjs": "^3.0.2",
